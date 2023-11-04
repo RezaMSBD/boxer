@@ -1,0 +1,39 @@
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+  border-bottom: 0.1px solid #37a5dd;
+  padding: 20px 0px;
+}
+
+.header_ul ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.header_ul ul li {
+  list-style-type: none;
+}
+
+.header_ul ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  color: rgb(59, 59, 59);
+}
+
+.logo img {
+  width: 100px;
+}
+
+.header_login button {
+  padding: 6px 20px;
+  cursor: pointer;
+  background-color: #37a5dd;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}

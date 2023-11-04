@@ -1,0 +1,26 @@
+.home_blog {
+  /* background-color: aqua; */
+  height: 300px;
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.card_division {
+  /* background-color: rebeccapurple; */
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.blog_icon {
+  font-size: 70px;
+  color: #37a5dd;
+}
+
+.card_division h2 {
+  padding-bottom: 10px;
+}

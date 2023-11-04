@@ -1,0 +1,48 @@
+.software {
+  /* background-color: aqua; */
+  padding: 40px;
+}
+
+.software_wrapper {
+  display: flex;
+  /* background-color: rebeccapurple; */
+  padding: 70px 250px;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 40px;
+}
+
+.wrapper_img img {
+  width: auto;
+  height: 300px;
+}
+
+.software_wrapper_right {
+  /* background-color: aqua; */
+  padding: 20px;
+  width: 600px;
+}
+.software_wrapper_right h2 {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.text {
+  /* font-size: 15px; */
+  width: 100px;
+}
+
+.software_f_icon {
+  font-size: 40px;
+  padding-top: 20px;
+  color: #37a5dd;
+}
+
+.software_incon_and_text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.software_p2 {
+  padding-top: 20px;
+}

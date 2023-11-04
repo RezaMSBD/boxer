@@ -1,0 +1,46 @@
+.download {
+  /* background: gray; */
+  margin-top: 20px;
+}
+
+.download_wrraper {
+  /* background-color: aqua; */
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+  justify-content: center;
+}
+
+.d_left {
+  /* background-color: bisque; */
+  width: 500px;
+  /* padding: 20px; */
+}
+
+.d_left h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.d_left p {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.down_btn {
+  padding: 5px 12px;
+  display: flex;
+  gap: 10px;
+  background-color: #37a5dd;
+  color: white;
+  border: none;
+}
+
+.down_btn:hover {
+  background-color: gray;
+  color: white;
+}
+
+.d_right img {
+  width: auto;
+  height: 300px;
+}

@@ -1,0 +1,33 @@
+.hero {
+  background-image: url("../../assets/images/hero_cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+.hero_wrapper {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px 250px;
+  height: 300px;
+}
+
+.hero_wrapper h1 {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.hero_wrapper p {
+  text-align: center;
+  font-style: italic;
+  font-size: 17px;
+}
+
+.hero_wrapper img {
+  padding-top: 40px;
+  width: auto;
+  height: 400px;
+}
