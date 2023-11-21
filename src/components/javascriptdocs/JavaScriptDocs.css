@@ -1,0 +1,43 @@
+.java {
+  background-color: green;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.java_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.java_wrapper input {
+  padding: 8px 30px;
+}
+
+.java_wrapper select {
+  padding: 8px 57px;
+}
+
+.java_wrapper button {
+  padding: 8px 90px;
+  background-color: beige;
+  border: none;
+  cursor: pointer;
+  transition: 0.02s;
+  text-transform: uppercase;
+}
+
+.java_wrapper button:hover {
+  padding: 8px 92px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}

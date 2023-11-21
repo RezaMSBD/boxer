@@ -34,6 +34,9 @@ const Header = () => {
             <li>
               <Link to="/learning">Learning</Link>
             </li>
+            <li>
+              <Link to="/javascript">JavaScript</Link>
+            </li>
           </ul>
         </div>
         <div className="header_login">

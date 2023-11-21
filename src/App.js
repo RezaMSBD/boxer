@@ -10,6 +10,7 @@ import Footer from "./shared/footer/Footer";
 import Home from "./pages/Home";
 import Calculator from "./pages/Calculator";
 import Learning from "./pages/Learning";
+import JavaScript from "./pages/JavaScript";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/calc" element={<Calculator />} />
         <Route path="/learning" element={<Learning />} />
+        <Route path="/javascript" element={<JavaScript />} />
       </Routes>
       <Footer />
     </div>
